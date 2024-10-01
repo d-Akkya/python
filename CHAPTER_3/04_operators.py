@@ -12,6 +12,7 @@ b = 6
 b -= 3  # Decrement the value of b by 3 and then assign it to b
 print(b)
 
-# Comparison Operators
+# Comparison Operators (==, >, <, <=, >=, !=)
 d = 5 != 7  #comparison operators always returns boolean value
 print(d)
+
