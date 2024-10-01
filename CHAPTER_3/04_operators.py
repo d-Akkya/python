@@ -16,3 +16,10 @@ print(b)
 d = 5 != 7  #comparison operators always returns boolean value
 print(d)
 
+# Logical Operators
+e = True or False  # or operator
+print(e)
+
+print(True and False) # and operator
+
+print(not(False)) # not operator
