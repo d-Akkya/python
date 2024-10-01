@@ -1,3 +1,5 @@
-a = input("Enter your number: ")
+a = int(input("Enter your number: "))
 
-print("a is greater than b is: ", a>b)
+print("The Square of the number is: ", a**2)
+print("The Square of the number is: ", a*a)
+print("The Square of the number is: ", a^2) # Invalid for finding square of a number in Python
