@@ -1,4 +1,4 @@
-name = ["akkya", "rohya", "parshya"]
+names = ["akkya", "rohya", "parshya"]
 
 print(len(name))
 print(name.endswith("ya"))
@@ -10,4 +10,4 @@ print(name.replace("good", "bad"))  # replace() - replace() – Replaces a subst
 print(name.find("boy"))  # find() – Finds the first occurrence of a substring
 
 print(name.split(","))  # split() - Splits a string into a list of substrings based on a separator
-print(", ".join(name))  # join() – Joins elements of a list into a single string
+print(", ".join(names))  # join() – Joins elements of a list into a single string
