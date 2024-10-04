@@ -3,3 +3,6 @@ print(a)
 
 no = a.count(45)
 print(no)
+
+i = a.index(343)
+print(i)
