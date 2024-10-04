@@ -5,5 +5,6 @@ friends.append("akkya")
 print(friends)
 
 l1 = [1, 33, 64, 11, 70]
-l1.sort()
+# l1.sort()
+l1.reverse()
 print(l1)
