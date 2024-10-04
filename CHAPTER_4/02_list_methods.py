@@ -3,3 +3,7 @@ print(friends)
 
 friends.append("akkya")
 print(friends)
+
+l1 = [1, 33, 64, 11, 70]
+l1.sort()
+print(l1)
