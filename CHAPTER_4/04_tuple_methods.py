@@ -6,3 +6,9 @@ print(no)
 
 i = a.index(343)
 print(i)
+
+b = (1, 2, 3)
+c = (4, 5, 6)
+
+concatination = b + c
+print(concatination)
