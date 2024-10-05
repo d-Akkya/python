@@ -1,3 +1,5 @@
+d = {} #Empty dictionary
+
 marks = {
     "Akkya": 89,
     "Parshya": 100,
