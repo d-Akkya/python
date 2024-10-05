@@ -14,6 +14,9 @@ marks = {
 # print(marks.get("Akkya2"))  #Prints None
 # print(marks["Akkya2"])  #Returns an Error
 
-print(marks.pop(0))
-print(marks.pop("Prajakta", 97))
+# print(marks.pop(0))
+# print(marks.pop("Prajakta", 97))
+# print(marks)
+
+print(marks.popitem())
 print(marks)
