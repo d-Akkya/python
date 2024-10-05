@@ -4,4 +4,5 @@ marks = {
     "Rohya": 75
 }
 
-print(marks.items())
+# print(marks.items())
+print(marks.keys())
