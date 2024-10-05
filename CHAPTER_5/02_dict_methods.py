@@ -8,3 +8,5 @@ marks = {
 # print(marks.items())
 print(marks.keys())
 print(marks.values())
+marks.update({"Akkya": 92, "Prajakta": 98})
+print(marks)
