@@ -11,5 +11,9 @@ marks = {
 # marks.update({"Akkya": 92, "Prajakta": 98})
 # print(marks)
 
-print(marks.get("Akkya2"))  #Prints None
-print(marks["Akkya2"])  #Returns an Error
+# print(marks.get("Akkya2"))  #Prints None
+# print(marks["Akkya2"])  #Returns an Error
+
+print(marks.pop(0))
+print(marks.pop("Prajakta", 97))
+print(marks)
