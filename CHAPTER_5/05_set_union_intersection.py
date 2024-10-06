@@ -7,3 +7,4 @@ print(s1 - s2)
 print(s2 - s1)
 
 print({1, 78}.issubset(s2))
+print(s2.issuperset({8, 1}))
