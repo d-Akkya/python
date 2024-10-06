@@ -3,3 +3,4 @@ s2 = {7, 8, 1, 78}
 
 print(s1.union(s2))
 print(s1.intersection(s2))  #common values from both sets
+print(s1 - s2)
