@@ -3,3 +3,5 @@ print(s, type(s))
 
 s.add(578)
 print(s, type(s))
+s.remove(1)
+print(s)
