@@ -85,12 +85,17 @@ def processCommand(c):
         else:
             print("Failed to retrieve data:", response.status_code)
 
+    elif "akya" in c.lower():
+        speak('Akya is a creator of Voice Assistant named Jarvis that is me')
+
+    elif "appreciate" in c.lower():
+        speak('I\'m here anytime you need assistance, feel free to ask')
+
     else:
     #     # Let OpenAI handle the request
     #     output = aiProcess(c)
     #     speak(output)
         speak('Try our premium with chat-gpt')
-
 
 if __name__ == "__main__":
     speak('Initializing Jarvis....')
@@ -105,7 +110,7 @@ if __name__ == "__main__":
                 print("Listening...")
                 audio = r.listen(source, timeout=2, phrase_time_limit=1)
             word = r.recognize_google(audio)
-            if (word.lower() == "jarvis"):
+            if (word.lower() == "hey jarvis"):
                 speak("Ya")
                 # Listen for command
                 with sr.Microphone() as source:
