@@ -2,15 +2,35 @@ import speech_recognition as sr
 import webbrowser
 import pyttsx3
 import musicLibrary
+from newsapi import newsapi
 import requests
+# from openai import OpenAI
+# from client import client
+from gtts import gTTS
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "858662c6234b4266af30f5a1bc1dff3a"
 
 def speak(text):
     engine.say(text)
     engine.runAndWait()
+
+# def aiProcess(command):
+#     client = client.api_key()
+
+#     completion = client.chat.completions.create(
+#         model="gpt-4o",
+#         messages=[
+#             {"role": "system", "content": "You are a helpful assistant."},
+#             {
+#                 "role": "user",
+#                 "content": command
+#             }
+#         ]
+#     )
+
+#     return completion.choices[0].message
+
 
 def processCommand(c):
     if "open google" in c.lower():
@@ -42,6 +62,13 @@ def processCommand(c):
                 speak(article["title"])
         else:
             print("Failed to retrieve data:", response.status_code)
+
+    else:
+    #     # Let OpenAI handle the request
+    #     output = aiProcess(c)
+    #     speak(output)
+        speak('Try our premium with chat-gpt')
+
 
 if __name__ == "__main__":
     speak('Initializing Jarvis....')
